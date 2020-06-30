@@ -17,5 +17,4 @@ Route::get('/', 'HomeController@index');
 
 Route::get('/register','AuthController@register')->name('register');
 Route::post('/pregister','AuthController@postRegister');
-Route::get('/welcome','AuthController@welcome')->name('welcome');
 
